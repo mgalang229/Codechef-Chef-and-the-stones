@@ -15,6 +15,8 @@ int main() {
 		m = (m * (m + 1)) / 2;
 		// find the mininum value to be subtracted from 'n1' and 'n2' (overall)
 		long long mn = min({n1, n2, m});
+		// calculate the minimized sum by adding the difference of 'n1' and 'mn' and the 
+		// difference of 'n2' and 'mn'
 		cout << (n1 - mn) + (n2 - mn) << '\n';
 	}
 	return 0;
