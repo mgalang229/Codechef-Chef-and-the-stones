@@ -11,7 +11,7 @@ int main() {
 		long long n1, n2, m;
 		cin >> n1 >> n2 >> m;
 		// compute the sum of numbers from 1 to 'n' (unique numbers that will be used to
-		// subtract in every turn to minimize the sum of 'n1' and 'n2'
+		// subtract in every turn to minimize the sum of 'n1' and 'n2')
 		m = (m * (m + 1)) / 2;
 		// find the mininum value to be subtracted from 'n1' and 'n2' (overall)
 		long long mn = min({n1, n2, m});
